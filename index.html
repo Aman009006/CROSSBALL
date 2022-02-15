@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CROSSBALL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content container">
+        <img src="./img/Logo.svg" alt="" class="logo" />
+        <ul class="nav__ul">
+          <li><a href="" class="nav__link">Расписание</a></li>
+          <li><a href="" class="nav__link">Игровые отчёты</a></li>
+          <li><a href="" class="nav__link">Статистика</a></li>
+          <select class="nav__link nav__select" name="" id="">
+            <option value="Ещё">Ещё</option>
+          </select>
+        </ul>
+        <select name="" class="nav__select navigate" id="">
+          <option value="football">football</option>
+        </select>
+        <img src="./img/profile.svg" alt="" class="user" />
+
+        <div class="dff">
+          <div class="bag">
+            <img src="./img/bug.svg" alt="" class="bag__img" />
+            <div class="circle">1</div>
+          </div>
+          <img src="./img/burger.svg" alt="" id="burger" class="burger" />
+          <div id="burger__menu" class="burger__menu">
+            <div class="burger__nav">
+                <img src="./img/profile.svg" alt="" class="user__burger" />
+                <a href="" class="burger__link">Расписание</a>  
+                <a href="" class="burger__link">Игровые отчёты</a>  
+                <a href="" class="burger__link">Статистика</a>  
+                <select class="burger__select" name="" id="">
+                  <option value="Ещё">Ещё</option>
+                </select>
+                <div id="back" class="back">Назад</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+ 
+    <section class="user__content container">
+      <div class="left__user-card">
+        <div class="user__card">
+          <div class="user__card-info df">
+            <div class="user__info-img">
+              <img class="user__img" src="./img/profile.svg" alt="" />
+            </div>
+            <div class="user__info-title">
+              <div class="df">
+                <div class="user__info-raiting">89.40</div>
+                <div class="user__info-up">999 <span>↑</span></div>
+              </div>
+              <div class="user__info-name">Елишакашвили Михо</div>
+            </div>
+          </div>
+
+          <div class="display">
+            <div class="edit">
+              <img class="edit__img" src="./img/edit.svg" alt="" />
+              <a href="" class="user__edit">Редактировать</a>
+            </div>
+
+            <div class="share1">
+              <div class="share__title">Поделиться</div>
+              <div class="social__links">
+                <a href="">
+                  <img src="./img/FB.svg" alt="" class="link-img" />
+                </a>
+                <a href="">
+                  <img src="./img/VK.svg" alt="" class="link-img" />
+                </a>
+                <a href="">
+                  <img src="./img/link.svg" alt="" class="link-img" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dekstop">
+          <button class="accordion">
+            <img class="btn__img" src="./img/user.svg" alt="" />
+            <div class="btn__title">Статистика</div>
+            <img class="btn__str" src="./img/Vector.svg" alt="" />
+          </button>
+          <div class="panel">
+            <p class="accordion__panel">Футбол</p>
+            <p class="accordion__panel">Баскетбол</p>
+            <p class="accordion__panel">Волейбол</p>
+          </div>
+
+          <button class="accordion">
+            <img class="btn__img" src="./img/calendar.svg" alt="" />
+            <div class="btn__title">Ближайшие игры</div>
+          </button>
+          <div class="panel">
+            <p class="accordion__panel">Футбол</p>
+            <p class="accordion__panel">Баскетбол</p>
+            <p class="accordion__panel">Волейбол</p>
+          </div>
+
+          <button class="accordion">
+            <img class="btn__img" src="./img/report.svg" alt="" />
+            <div class="btn__title">Игровые отчёты</div>
+          </button>
+          <div class="panel">
+            <p class="accordion__panel">Футбол</p>
+            <p class="accordion__panel">Баскетбол</p>
+            <p class="accordion__panel">Волейбол</p>
+          </div>
+
+          <button class="accordion">
+            <img class="btn__img" src="./img/history.svg" alt="" />
+            <div class="btn__title">История заказов</div>
+          </button>
+          <div class="panel">
+            <p class="accordion__panel">Футбол</p>
+            <p class="accordion__panel">Баскетбол</p>
+            <p class="accordion__panel">Волейбол</p>
+          </div>
+
+          <div class="logout">
+            <img class="logout__img" src="./img/log out.svg" alt="" />
+            <p class="logout__title">Выйти</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile__slider">
+        <div class="slider">
+            <div class="item">
+                <button class="accordion">
+                    <img class="btn__img" src="./img/user.svg" alt="" />
+                    <div class="btn__title">Статистика</div>
+                    <img class="btn__str" src="./img/Vector.svg" alt="" />
+                  </button>
+                  <div class="panel">
+                    <p class="accordion__panel">Футбол</p>
+                    <p class="accordion__panel">Баскетбол</p>
+                    <p class="accordion__panel">Волейбол</p>
+                  </div>
+            </div>
+        
+            <div class="item">
+                <button class="accordion">
+                    <img class="btn__img" src="./img/calendar.svg" alt="" />
+                    <div class="btn__title">Ближайшие игры</div>
+                  </button>
+                  <div class="panel">
+                    <p class="accordion__panel">Футбол</p>
+                    <p class="accordion__panel">Баскетбол</p>
+                    <p class="accordion__panel">Волейбол</p>
+                  </div>
+            </div>
+        
+            <div class="item">
+                <button class="accordion">
+                    <img class="btn__img" src="./img/report.svg" alt="" />
+                    <div class="btn__title">Игровые отчёты</div>
+                  </button>
+                  <div class="panel">
+                    <p class="accordion__panel">Футбол</p>
+                    <p class="accordion__panel">Баскетбол</p>
+                    <p class="accordion__panel">Волейбол</p>
+                  </div>
+            </div>
+
+
+            <div class="item">
+                <button class="accordion">
+                    <img class="btn__img" src="./img/history.svg" alt="" />
+                    <div class="btn__title">История заказов</div>
+                  </button>
+                  <div class="panel">
+                    <p class="accordion__panel">Футбол</p>
+                    <p class="accordion__panel">Баскетбол</p>
+                    <p class="accordion__panel">Волейбол</p>
+                  </div>
+            </div>
+
+           
+        
+            <a class="prev" onclick="minusSlide()">&#10094;</a>
+            <a class="next" onclick="plusSlide()">&#10095;</a>
+        </div>
+        
+    </div>
+
+
+      <div class="right__user-card">
+        <div class="user__status">
+          <img class="status__pattern" src="./img/Pattern.svg" alt="" />
+          <div class="cards__logo">
+            <div class="all__cards">
+              <div class="cl__logo">
+                <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+                <div class="circle-white">5</div>
+              </div>
+              <div class="cl__logo">
+                <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+                <div class="circle-white">5</div>
+              </div>
+              <div class="cl__logo">
+                <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+                <div class="circle-whit">99</div>
+              </div>
+
+              <img class="bandw__log" src="./img/blCardLogo.png" alt="" />
+              <img class="bandw__logo" src="./img/blCardLogo.png" alt="" />
+            </div>
+            <div class="line"></div>
+            <div class="color__cards">
+              <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+              <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+              <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+              <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+              <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+            </div>
+          </div>
+          <div class="all__seasons">
+            <div class="seasons__btns">
+              <button class="season__btn btn__active">Всe сезоны</button>
+              <button class="season__btn">Все сезоны</button>
+            </div>
+            <div class="all__cards-game">
+              <div class="all__card">
+                <div class="all__card-img">
+                  <img src="./img/Games.svg" alt="" class="all__card-img" />
+                  <div class="all__card-title">Игры</div>
+                  <div class="all__card-number">36</div>
+                </div>
+              </div>
+              <div class="all__card">
+                <div class="all__card-img">
+                  <img src="./img/Games.svg" alt="" class="all__card-img" />
+                  <div class="all__card-title">Гол</div>
+                  <div class="all__card-number">67</div>
+                </div>
+              </div>
+              <div class="all__card">
+                <div class="all__card-img">
+                  <img src="./img/Games.svg" alt="" class="all__card-img" />
+                  <div class="all__card-title">Пас</div>
+                  <div class="all__card-number">136</div>
+                </div>
+              </div>
+              <div class="all__card">
+                <div class="all__card-img">
+                  <img src="./img/Games.svg" alt="" class="all__card-img" />
+                  <div class="all__card-title">Гол + пас</div>
+                  <div class="all__card-number">136</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2>Награды и достижения</h2>
+          <div class="cards__logo1">
+            <div class="all__cards">
+              <div class="cl__logo">
+                <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+                <div class="circle-white">5</div>
+              </div>
+              <div class="cl__logo">
+                <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+                <div class="circle-white">5</div>
+              </div>
+              <div class="cl__logo">
+                <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+                <div class="circle-whit">99</div>
+              </div>
+
+              <img class="bandw__log" src="./img/blCardLogo.png" alt="" />
+              <img class="bandw__logo" src="./img/blCardLogo.png" alt="" />
+            </div>
+            <div class="line"></div>
+            <div class="color__cards">
+              <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+              <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+              <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+              <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+              <img class="color__logo" src="./img/ColCardLogo.png" alt="" />
+            </div>
+          </div>
+          <div class="share">
+            <div class="share__title">Поделиться</div>
+            <div class="social__links">
+              <a href="">
+                <img src="./img/FB.svg" alt="" class="link-img" />
+              </a>
+              <a href="">
+                <img src="./img/VK.svg" alt="" class="link-img" />
+              </a>
+              <a href="">
+                <img src="./img/link.svg" alt="" class="link-img" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="forma">
+          <select class="forma__select" name="" id="">
+            <option value="">Формат</option>
+          </select>
+        </div>
+
+        <div class="table">
+          <table width="100%" cellspacing="0">
+            <tr>
+              <th>Сезон</th>
+              <th>Кол-во игр</th>
+              <th>Гол</th>
+              <th>Пас</th>
+              <th>Гол + пас</th>
+              <th>Рейтинг</th>
+            </tr>
+            <tr class="gray">
+              <td>Сезон 2021/2020</td>
+
+              <td>5</td>
+              <td>5</td>
+              <td>2</td>
+              <td>1</td>
+              <td class="another__color">89.40</td>
+            </tr>
+            <tr class="white">
+              <td>Сезон 2021/2020</td>
+
+              <td>5</td>
+              <td>5</td>
+              <td>2</td>
+              <td>1</td>
+              <td class="another__color">89.40</td>
+            </tr>
+            <tr class="gray">
+              <td>Сезон 2021/2020</td>
+
+              <td>5</td>
+              <td>5</td>
+              <td>2</td>
+              <td>1</td>
+              <td class="another__color">89.40</td>
+            </tr>
+            <tr class="white">
+              <td>Сезон 2021/2020</td>
+
+              <td>5</td>
+              <td>5</td>
+              <td>2</td>
+              <td>1</td>
+              <td class="another__color">89.40</td>
+            </tr>
+            <tr class="gray">
+              <td>Сезон 2021/2020</td>
+
+              <td>5</td>
+              <td>5</td>
+              <td>2</td>
+              <td>1</td>
+              <td class="another__color">89.40</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__content container">
+        <div class="footer__logo">
+          <img src="./img/LogoWhite.png" alt="" class="footer__img" />
+          <div class="download">
+            <img src="./img/appstore.png" alt="" class="for__apple__play" />
+            <img src="./img/googleplay.png" alt="" class="for__apple__play" />
+          </div>
+          <div class="contact">
+            <div class="contact__title">Наши контакты</div>
+            <div class="contact__phone">
+              <img contact__footer-img src="./img/phone.svg" alt="" />
+              <span class="contact__number">+7 (495) 109-03-09</span>
+            </div>
+            <div class="contact__phone">
+              <img contact__footer-img src="./img/mail.png" alt="" />
+              <span class="contact__number">go@crossball.ru</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="df">
+            <div class="footer__title">Разделы</div>
+            <div class="footer__title">Виды спорта</div>
+            <div class="footer__title">Полезное</div>
+            <div class="footer__title">Чё почём</div>
+          </div>
+          <div class="df">
+            <div class="footer__linka">
+              <a href="" class="footer__link">Главная</a>
+              <a href="" class="footer__link">Расписание</a>
+              <a href="" class="footer__link">Игровые отчёты</a>
+              <a href="" class="footer__link">Статистика</a>
+            </div>
+            <div class="footer__linka">
+              <a href="" class="footer__link">Футбол</a>
+              <a href="" class="footer__link">Баскетбол</a>
+              <a href="" class="footer__link">Волейбол</a>
+            </div>
+            <div class="footer__linka">
+              <a href="" class="footer__link">Как записаться?</a>
+              <a href="" class="footer__link">Ответы на вопросы</a>
+              <a href="" class="footer__link">Достижения</a>
+            </div>
+            <div class="footer__linka">
+              <a href="" class="footer__link">Абонементы</a>
+              <a href="" class="footer__link">Корп. клиентам</a>
+              <a href="" class="footer__link">Партнёры</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="containerr">
+        <div class="line__long"></div>
+        <div class="about">
+          <div class="w">© Все права защищены</div>
+          <div class="our__links">
+            <a href=""><img src="./img/IG.svg" alt="" /></a>
+            <a href=""><img src="./img/VK.svg" alt="" /></a>
+            <a href=""><img src="./img/FB.svg" alt="" /></a>
+            <a href=""><img src="./img/YT.png" alt="" /></a>
+            <a href=""><img src="./img/Telegram.png" alt="" /></a>
+            <a href=""><img src="./img/WA.png" alt="" /></a>
+          </div>
+          <div class="w">Cделали в Spans</div>
+        </div>
+      </div>
+      <div class="mobile">
+        <div class="contact__phone">
+          <span class="contact__number">+7 (495) 109-03-09</span>
+        </div>
+        <div class="contact__phone">
+          <span class="contact__number">go@crossball.ru</span>
+        </div>
+        <div class="our__links">
+          <a href=""><img src="./img/IG.svg" alt="" /></a>
+          <a href=""><img src="./img/VK.svg" alt="" /></a>
+          <a href=""><img src="./img/FB.svg" alt="" /></a>
+          <a href=""><img src="./img/YT.png" alt="" /></a>
+          <a href=""><img src="./img/Telegram.png" alt="" /></a>
+          <a href=""><img src="./img/WA.png" alt="" /></a>
+        </div>
+        <div class="download">
+          <img src="./img/appstore.png" alt="" class="for__apple__play" />
+          <img src="./img/googleplay.png" alt="" class="for__apple__play" />
+        </div>
+        <img src="./img/LogoWhite.png" alt="" class="footer__imgM" />
+        <div class="w">© Все права защищены</div>
+
+        <div class="w">Cделали в Spans</div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
